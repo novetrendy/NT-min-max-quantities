@@ -181,7 +181,7 @@ else  {
               deactivate_plugins( plugin_basename( __FILE__ ) );
           }
           function my_plugin_admin_notice() {
-               echo '<div class="updated"><p>' . __('<strong>EAN, Delivery Date, Short Description and Free Shipping</strong> requires active Woocommerce plugin. Because Woocommerce plugin is not installed or active <strong>plugin has been deactivated</ strong>.', '') . '</p></div>';
+               echo '<div class="updated"><p>' . __('<strong>NT Min/Max quantities </strong> requires active Woocommerce plugin. Because Woocommerce plugin is not installed or active <strong>plugin has been deactivated</ strong>.', '') . '</p></div>';
                if ( isset( $_GET['activate'] ) )
                     unset( $_GET['activate'] );
           }
