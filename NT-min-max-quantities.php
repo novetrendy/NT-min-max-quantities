@@ -1,5 +1,4 @@
-﻿<?php
-
+<?php
 /*
 * Plugin Name: NT product quantities for Woocommerce
 * Plugin URI: http://webstudionovetrendy.eu/
@@ -10,6 +9,7 @@
 * License: Free to use and adapt
 * WC requires at least: 2.3
 * WC tested up to: 2.6
+* GitHub Plugin URI: https://github.com/novetrendy/NT-min-max-quantities
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
